@@ -1,0 +1,214 @@
+/*style page*/
+
+body {
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --cor-cinza: #F2F2F2;
+    --cor-cinza-escuro: #575757;
+}
+
+nav {
+
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    background-color: var(--cor-cinza);
+    /* padding-top: 13px; */
+    /* padding-left: 22px; */
+    /* padding-bottom: 13px; */
+    /* padding-right: 22px; */
+    align-items: center;
+}
+
+#logo {
+    width: 94px;
+    height: 45px;
+    margin: 13px;
+}
+
+#imgcasal {
+    width: 100%;
+    height: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-content-start {
+    justify-content: start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.conteiner {
+    max-width: 100%;
+}
+
+.item {
+    text-align: center;
+    font-size: 18px;
+    color: var(--cor-cinza-escuro);
+    text-decoration: none;
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    /* align-items: center; */
+    height: 25px;
+    margin-top: 18px;
+}
+.item:hover{
+    color: black;
+}
+.itemtop{
+    margin-top: 37px;
+}
+.iconeItem{
+    height: 25px;
+}
+
+.horizontal {
+    flex-direction: row;
+}
+
+.quebra {
+    flex-wrap: wrap;
+}
+
+.section {
+    margin-top: 100px;
+}
+
+.sectioh2 {
+    font-size: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.paragrafo {
+    margin-top: 0px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* Cabeçarios:*/
+
+
+/*Menu superior*/
+
+
+/*tabela carros*/
+
+.gradedecarros {
+    display: flex;
+}
+
+.card {
+    width: calc (33.3333% - 100px);
+    margin: 1%;
+}
+
+.cardimg {
+    width: 97%;
+}
+
+.modelo {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 25px;
+}
+
+.linksCardCar {
+
+    border: 2px solid #CD9834;
+    background-color: rgb(255, 255, 255);
+    width: 157px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linksCardCar:hover{
+background-color: #CD9834;
+}
+
+.linksCardCar2 {
+    border: 2px solid #AAAAAA;
+    background-color: rgb(255, 255, 255);
+    width: 157px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linksCardCar2:hover{
+    background-color: #AAAAAA;
+}
+
+.linksCardCarText {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+section {
+    padding: 34px;
+
+}
+
+
+.rodapeh2 {
+    display: flex;
+    color: #6E6E6E;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+.rodape {
+    display: flex;
+    justify-content: space-around;
+     color: black;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    padding: 34px;
+   margin-top: 200px;
+    background-color: var(--cor-cinza);
+
+}
+
+.listaRodaPe {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.divRoda {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+.divRoda div {
+    margin-bottom: 15px;
+}
