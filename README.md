@@ -1,3 +1,3 @@
 # landingpage-web-chevrolet
 
-landingpagechevrolet01.netlify.app
+https://landingpagechevrolet01.netlify.app
